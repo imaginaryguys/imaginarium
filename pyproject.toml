@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "imaginarium"
+version = "0.1.0"
+description = "imaginarium - build pictures you imagine"
+authors = ["Dastan Ozgeldi <ozgdastan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2.9"
+fastapi = "^0.70.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
