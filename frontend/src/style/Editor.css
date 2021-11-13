@@ -1,6 +1,39 @@
 .editor-container {
   padding-top: 80px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+input {
+  font-size: 1.1rem;
+}
+
+.editor-form {
+  padding: 70px;
+}
+
+.form-filter,
+.form-title,
+.form-dnd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 110%;
+  margin: 0 0 40px 0;
+}
+
+.filter-section {
+  width: 300px;
+  color: black;
+}
+
+.form-title input {
+  padding: 3px 10px;
+  width: 280px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
 }

@@ -6,7 +6,7 @@ function Appbar(props) {
     return (
         <div className="appbar-container">
             <div className="appbar-left">
-                <h5>Imaginarius</h5>
+                <h5>Imaginarium</h5>
             </div>
             <div className="appbar-right">
                 <a className="appbar-link">Daily</a>
