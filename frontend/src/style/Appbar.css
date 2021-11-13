@@ -1,0 +1,27 @@
+.appbar-container {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: #f15b50;
+  color: white;
+  box-shadow: 0 0 4px #f15b50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appbar-left {
+  padding-left: 20px;
+}
+
+.appbar-left h5,
+.appbar-right a {
+  cursor: pointer;
+}
+
+.appbar-right {
+  padding-right: 20px;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
