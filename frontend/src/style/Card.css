@@ -4,11 +4,10 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 40px 0;
+  margin: 40px 0 80px 0;
   padding: 10px;
-  border: 1px solid #939393;
-  box-shadow: 1px 1px 4px #939393;
-  border-radius: 10px;
+  border-bottom: 1px solid #f56161;
+  /* box-shadow: 2px 2px 7px #353535; */
 }
 
 .card-img {
@@ -20,7 +19,6 @@
 
 .card-text-container {
   height: 70%;
-  /* width: 50%; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -36,7 +34,7 @@
 }
 
 .card-author {
-  color: #ff4949;
+  color: #f56161;
   text-decoration: none;
 }
 

@@ -15,13 +15,22 @@
 }
 
 .appbar-left h5,
-.appbar-right a {
+.appbar-right a,
+.appbar-right img {
   cursor: pointer;
 }
 
 .appbar-right {
   padding-right: 20px;
-  width: 150px;
+  width: 300px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.appbar-right img {
+  height: 32px;
+  width: 32px;
+  filter: invert(95%) sepia(77%) saturate(6372%) hue-rotate(179deg)
+    brightness(112%) contrast(103%);
 }

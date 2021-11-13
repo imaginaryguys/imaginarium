@@ -1,5 +1,5 @@
 .home-container {
-  padding: 60px 0 20px 0;
+  padding: 120px 0 50px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 .home-headline {
-  color: #ff4949;
+  color: #f85a4f;
   padding-bottom: 30px;
 }
 
