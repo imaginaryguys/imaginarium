@@ -1,0 +1,23 @@
+.card-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card-heading {
+  padding: 5px 0 10px 0;
+}
+
+.card-img {
+  width: 90%;
+  height: auto;
+}
+
+.card-date {
+  padding-top: 10px;
+}

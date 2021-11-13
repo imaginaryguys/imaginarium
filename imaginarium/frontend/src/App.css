@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Monsterrat";
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+body {
+  font-family: "Monsterrat";
+}
