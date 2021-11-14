@@ -36,16 +36,16 @@ function Editor() {
                     <input type="text" placeholder="Come up with a funny title" />
                 </div>
                 <div className="form-dnd">
-                    <h4>Select a photo</h4>
+                    <h4>Select a photo: </h4>
                     <input type="file" />
                 </div>
                 <div className="btn-container">
                     {edited
-                        ? <div>
-                            <img src="https://i.pinimg.com/474x/b3/0a/c9/b30ac9910685037a3982ec51c8d86348.jpg" />
-                            <button>Post</button>
+                        ? <div className="result">
+                            <button className="form-btn">Post</button>
+                            <img src="https://i.kym-cdn.com/entries/icons/original/000/034/467/Communist_Bugs_Bunny_Banner.jpg" />
                         </div>
-                        : <button type="submit">Start editing</button>
+                        : <button className="form-btn" type="submit">Start editing</button>
                     }
                 </div>
             </form>
