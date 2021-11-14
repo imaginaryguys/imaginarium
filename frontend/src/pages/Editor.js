@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Select from 'react-select'
 import '../style/Editor.css'
 
@@ -9,10 +9,22 @@ const options = [
 ]
 
 function Editor() {
+    const [edited, setEdited] = useState(false)
+
+    async function Edit(e) {
+        e.preventDefault()
+
+        setEdited(true)
+    }
+
+    const downloadFile = e => {
+        e.preventDefault()
+        window.location.href = "https://i.pinimg.com/474x/b3/0a/c9/b30ac9910685037a3982ec51c8d86348.jpg"
+    }
+
     return (
         <div className="editor-container">
-            <h1>Edit your photos</h1>
-            <form className="editor-form">
+            <form onSubmit={Edit} className="editor-form">
                 <div className="form-filter">
                     <h4>Chose the filter: </h4>
                     <div className="filter-section">
@@ -26,6 +38,15 @@ function Editor() {
                 <div className="form-dnd">
                     <h4>Select a photo</h4>
                     <input type="file" />
+                </div>
+                <div className="btn-container">
+                    {edited
+                        ? <div>
+                            <img src="https://i.pinimg.com/474x/b3/0a/c9/b30ac9910685037a3982ec51c8d86348.jpg" />
+                            <button>Post</button>
+                        </div>
+                        : <button type="submit">Start editing</button>
+                    }
                 </div>
             </form>
         </div>
