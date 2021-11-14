@@ -22,10 +22,15 @@
 
 .appbar-right {
   padding-right: 20px;
-  width: 300px;
+  width: 270px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.appbar-right a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .appbar-right img {

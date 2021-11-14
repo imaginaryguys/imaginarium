@@ -1,14 +1,63 @@
 .home-container {
-  padding: 120px 0 50px 0;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.home-headline {
-  color: #f85a4f;
-  padding-bottom: 30px;
+.home-intro-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/star_bg.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home-intro {
+  height: 270px;
+  padding-left: 90px;
+  padding-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro-btn {
+  cursor: pointer;
+  margin-top: 70px;
+  font-size: 1.7rem;
+  width: 200px;
+  height: 50px;
+  background-color: #c44d44;
+  color: whitesmoke;
+  border: 1px solid #c44d44;
+  outline: none;
+  border-radius: 5px;
+  transition: ease 200ms;
+}
+
+.intro-btn:hover {
+  box-shadow: 0px 0px 2px #cc5d55;
+  transition: ease 200ms;
+}
+
+.intro-headline {
+  font-size: 4rem;
+  color: #f15b50;
+}
+
+.intro-p {
+  font-size: 2rem;
+}
+
+.cards-container {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cards {
